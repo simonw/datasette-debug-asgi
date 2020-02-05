@@ -4,7 +4,7 @@
 [![CircleCI](https://circleci.com/gh/simonw/datasette-debug-asgi.svg?style=svg)](https://circleci.com/gh/simonw/datasette-debug-asgi)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/datasette-debug-asgi/blob/master/LICENSE)
 
-Datasette plugin to help debug ASGI applications
+Datasette plugin for dumping out the ASGI scope.
 
 Adds a new URL at `/-/asgi-scope` which shows the current ASGI scope.
 

@@ -14,7 +14,7 @@ def get_long_description():
 
 setup(
     name="datasette-debug-asgi",
-    description="Datasette plugin for debugging ASGI",
+    description="Datasette plugin for dumping out the ASGI scope",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     author="Simon Willison",
