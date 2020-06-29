@@ -23,6 +23,8 @@ setup(
     version=VERSION,
     py_modules=["datasette_debug_asgi"],
     entry_points={"datasette": ["debug_asgi = datasette_debug_asgi"]},
-    extras_require={"test": ["datasette", "pytest", "pytest-asyncio", "httpx==0.11.1"]},
+    extras_require={
+        "test": ["datasette", "pytest", "pytest-asyncio", "httpx", "asgi-lifespan~=1.0"]
+    },
     tests_require=["datasette-debug-asgi[test]"],
 )

@@ -6,7 +6,7 @@ from datasette import hookimpl
 def asgi_wrapper(datasette):
     def wrap_with_asgi_auth(app):
         async def wrapped_app(scope, recieve, send):
-            if scope["path"] == "/-/asgi-scope":
+            if scope["type"] == "http" and scope.get("path") == "/-/asgi-scope":
                 await send(
                     {
                         "type": "http.response.start",
