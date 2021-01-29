@@ -11,7 +11,9 @@ def asgi_wrapper(datasette):
                     {
                         "type": "http.response.start",
                         "status": 200,
-                        "headers": [[b"content-type", b"text/plain; charset=UTF-8"],],
+                        "headers": [
+                            [b"content-type", b"text/plain; charset=UTF-8"],
+                        ],
                     }
                 )
                 await send(
