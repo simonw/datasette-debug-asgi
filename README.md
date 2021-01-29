@@ -1,14 +1,13 @@
 # datasette-debug-asgi
 
 [![PyPI](https://img.shields.io/pypi/v/datasette-debug-asgi.svg)](https://pypi.org/project/datasette-debug-asgi/)
-[![CircleCI](https://circleci.com/gh/simonw/datasette-debug-asgi.svg?style=svg)](https://circleci.com/gh/simonw/datasette-debug-asgi)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/datasette-debug-asgi/blob/master/LICENSE)
+[![Changelog](https://img.shields.io/github/v/release/simonw/datasette-debug-asgi?include_prereleases&label=changelog)](https://github.com/simonw/datasette-debug-asgi/releases)
+[![Tests](https://github.com/simonw/datasette-debug-asgi/workflows/Test/badge.svg)](https://github.com/simonw/datasette-debug-asgi/actions?query=workflow%3ATest)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/datasette-debug-asgi/blob/main/LICENSE)
 
 Datasette plugin for dumping out the ASGI scope.
 
 Adds a new URL at `/-/asgi-scope` which shows the current ASGI scope. Demo here: https://www.niche-museums.com/-/asgi-scope
-
-Inspired by [asgi-scope](https://github.com/simonw/asgi-scope).
 
 ## Installation
 

@@ -19,6 +19,11 @@ setup(
     long_description_content_type="text/markdown",
     author="Simon Willison",
     url="https://github.com/simonw/datasette-debug-asgi",
+    project_urls={
+        "Issues": "https://github.com/simonw/datasette-debug-asgi/issues",
+        "CI": "https://github.com/simonw/datasette-debug-asgi/actions",
+        "Changelog": "https://github.com/simonw/datasette-debug-asgi/releases",
+    },
     license="Apache License, Version 2.0",
     version=VERSION,
     py_modules=["datasette_debug_asgi"],
@@ -26,4 +31,5 @@ setup(
     install_requires=["datasette>=0.50"],
     extras_require={"test": ["pytest", "pytest-asyncio"]},
     tests_require=["datasette-debug-asgi[test]"],
+    python_requires=">=3.6",
 )
