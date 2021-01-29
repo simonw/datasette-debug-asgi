@@ -6,7 +6,7 @@
 
 Datasette plugin for dumping out the ASGI scope.
 
-Adds a new URL at `/-/asgi-scope` which shows the current ASGI scope.
+Adds a new URL at `/-/asgi-scope` which shows the current ASGI scope. Demo here: https://www.niche-museums.com/-/asgi-scope
 
 Inspired by [asgi-scope](https://github.com/simonw/asgi-scope).
 
