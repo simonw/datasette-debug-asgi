@@ -9,4 +9,7 @@ def asgi_scope(scope):
 
 @hookimpl
 def register_routes():
-    return (("^/-/asgi-scope$", asgi_scope),)
+    return (
+        ("^/-/asgi-scope$", asgi_scope),
+        ("^/-/asgi-scope/.*$", asgi_scope),
+    )

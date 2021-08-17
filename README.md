@@ -12,3 +12,11 @@ Adds a new URL at `/-/asgi-scope` which shows the current ASGI scope. Demo here:
 ## Installation
 
     pip install datasette-debug-asgi
+
+## Usage
+
+Visit `/-/asgi-scope` to see debug output showing the ASGI scope.
+
+You can add query string parameters such as `/-/asgi-scope?q=hello`.
+
+You can also add extra path components such as `/-/asgi-scope/more/path/here`.
